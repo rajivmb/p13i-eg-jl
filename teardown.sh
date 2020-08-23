@@ -4,8 +4,8 @@
 
 printf "Tearing down Lambda Function"
 
-/bin/bash ../JavaLambdaFunction/teardown.sh
+/bin/bash p13i-mit-eg-jpll/teardown.sh
 
 printf "Tearing down Lambda Layer"
 
-/bin/bash ../JavaParentLambdaLayer/teardown.sh
+/bin/bash p13i-mit-eg-jglf/teardown.sh

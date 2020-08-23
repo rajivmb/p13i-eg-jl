@@ -4,12 +4,12 @@
 
 printf "Setting up Lambda Layer"
 
-/bin/bash ../JavaParentLambdaLayer/setup.sh
+/bin/bash p13i-mit-eg-jpll/setup.sh
 
 printf "Setting up Lambda Function"
 
-/bin/bash ../JavaLambdaFunction/setup.sh
+/bin/bash p13i-mit-eg-jglf/setup.sh
 
 printf "Invoking Lambda Function"
 
-/bin/bash ../JavaLambdaFunction/invoke.sh
+/bin/bash p13i-mit-eg-jglf/invoke.sh
