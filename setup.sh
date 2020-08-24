@@ -2,14 +2,14 @@
 
 #<Ref/> https://stackoverflow.com/a/8352939
 
-printf "Setting up Lambda Layer"
+printf "\n\nSetting up Lambda Layer"
 
 /bin/bash p13i-mit-eg-jpll/setup.sh
 
-printf "Setting up Lambda Function"
+printf "\n\nSetting up Lambda Function"
 
 /bin/bash p13i-mit-eg-jglf/setup.sh
 
-printf "Invoking Lambda Function"
+printf "\n\nInvoking Lambda Function"
 
 /bin/bash p13i-mit-eg-jglf/invoke.sh
