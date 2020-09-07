@@ -1,6 +1,3 @@
 [submodule "p13i-mit-eg-jpll"]
 	path = p13i-mit-eg-jpll
 	url = https://github.com/rajivmb/p13i-mit-eg-jpll.git
-[submodule "p13i-mit-eg-jglf"]
-	path = p13i-mit-eg-jglf
-	url = https://github.com/rajivmb/p13i-mit-eg-jglf.git
