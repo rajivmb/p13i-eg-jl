@@ -4,13 +4,13 @@
 
 functionStart=$(date +%s)
 printf "\n\nTearing down Lambda Function\n****************************\n\n"
-/bin/bash p13i-mit-eg-jglf/teardown.sh
+/bin/bash p13i-eg-jglf/teardown.sh
 layerStart=$(date +%s)
 functionDuration=$((layerStart - functionStart))
 printf "\nLambda Function teardown completed in           [ %02dm %02ds ]\n\n" $((functionDuration / 60)) $((functionDuration % 60))
 
 printf "\n\nTearing down Lambda Layer\n*************************\n\n"
-/bin/bash p13i-mit-eg-jpll/teardown.sh
+/bin/bash p13i-eg-jpll/teardown.sh
 layerDuration=$(($(date +%s) - layerStart))
 printf "\nLambda Layer teardown completed in              [ %02dm %02ds ]\n\n" $((layerDuration / 60)) $((layerDuration % 60))
 
